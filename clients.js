@@ -163,7 +163,7 @@ exports.delete = function (req, resp, reqBody) {
 //Function to validate phone number according to country code in settings.js
 //https://github.com/halt-hammerzeit/libphonenumber-js
 function validateNumber(number) {
-    return lpn.isValidNumber(lpn.parse(number, settings.countryCode()));
+    return lpn.isValidNumber(lpn.parse(number, settings.countryCode));
 }
 
 //Email address validation
