@@ -1,0 +1,23 @@
+{
+  "name": "myjarstore",
+  "version": "1.0.0",
+  "description": "MyJar test task",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MakuPoku/myjarstore.git"
+  },
+  "author": "Markus Tarn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MakuPoku/myjarstore/issues"
+  },
+  "homepage": "https://github.com/MakuPoku/myjarstore#readme",
+  "dependencies": {
+    "libphonenumber-js": "^0.4.18",
+    "pg": "^6.4.0"
+  }
+}
